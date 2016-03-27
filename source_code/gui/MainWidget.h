@@ -9,4 +9,14 @@ public:
 	void paintEvent(QPaintEvent* event);
 private:
 	void fillBackground();
+
+public:
+	OperatingStatus
+	{
+		Moving,
+		Operating,
+	}
+
+public:
+
 };
