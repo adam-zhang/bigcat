@@ -11,11 +11,11 @@ private:
 	void fillBackground();
 
 public:
-	OperatingStatus
+	enum OperatingStatus
 	{
 		Moving,
 		Operating,
-	}
+	};
 
 public:
 
